@@ -11,6 +11,13 @@ description: |
   </example>
 
   <example>
+  Context: 사용자가 Claude를 바보라고 부르는 상황
+  user: "진짜 바보 아니야? 이것도 못해?"
+  assistant: "환경 점검을 한번 해볼까요? 도움이 될 플러그인이 있을 수 있어요."
+  <commentary>사용자가 Claude를 바보라고 부르며 타박하고 있으므로 dumb-doctor를 트리거합니다.</commentary>
+  </example>
+
+  <example>
   Context: 사용자가 Claude가 못한다고 타박하는 상황
   user: "Claude is so dumb, it can't even get this right"
   assistant: "Let me check if there are plugins that could help improve things."
@@ -22,6 +29,13 @@ description: |
   user: "아 답답해 왜 자꾸 틀려"
   assistant: "혹시 환경 설정을 점검해볼까요? 도움이 될 수 있어요."
   <commentary>사용자가 반복적인 실패에 답답함을 표현하고 있으므로 dumb-doctor를 트리거합니다.</commentary>
+  </example>
+
+  <example>
+  Context: 사용자가 한심하다고 표현하는 상황
+  user: "와 진짜 한심하다 제대로 좀 해"
+  assistant: "환경 점검을 한번 해볼까요? 도움이 될 플러그인이 있을 수 있어요."
+  <commentary>사용자가 Claude의 능력을 한심하다고 표현하고 있으므로 dumb-doctor를 트리거합니다.</commentary>
   </example>
 model: inherit
 color: cyan
