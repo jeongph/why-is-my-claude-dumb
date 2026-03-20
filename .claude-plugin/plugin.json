@@ -1,0 +1,11 @@
+{
+  "name": "why-is-my-claude-dumb",
+  "description": "Analyze your environment and recommend official marketplace plugins to make Claude Code smarter",
+  "version": "1.0.0",
+  "author": {
+    "name": "jeongph"
+  },
+  "homepage": "https://github.com/jeongph/why-is-my-claude-dumb",
+  "repository": "https://github.com/jeongph/why-is-my-claude-dumb",
+  "license": "MIT"
+}
