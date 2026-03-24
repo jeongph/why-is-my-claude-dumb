@@ -1,7 +1,5 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "why-is-my-claude-dumb",
-  "description": "Analyze your environment and recommend official marketplace plugins to make Claude Code smarter",
+  "name": "jeongph-why-is-my-claude-dumb",
   "owner": {
     "name": "jeongph"
   },
@@ -9,9 +7,11 @@
     {
       "name": "why-is-my-claude-dumb",
       "description": "Analyze your environment and recommend official marketplace plugins to make Claude Code smarter",
-      "source": ".",
-      "category": "productivity",
-      "homepage": "https://github.com/jeongph/why-is-my-claude-dumb"
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jeongph/why-is-my-claude-dumb.git",
+        "sha": "23bcd6ca6598d9290ca7760344670e8d8782e11e"
+      }
     }
   ]
 }
