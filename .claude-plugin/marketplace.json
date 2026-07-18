@@ -3,6 +3,7 @@
   "owner": {
     "name": "jeongph"
   },
+  "description": "Marketplace for why-is-my-claude-dumb",
   "plugins": [
     {
       "name": "why-is-my-claude-dumb",

@@ -6,16 +6,16 @@ Your Claude Code environment might be missing plugins that could make it signifi
 
 ## Installation
 
-**1. Add the marketplace**
+**1. Add the [jeongph/claude-plugins](https://github.com/jeongph/claude-plugins) marketplace** (one-time)
 
 ```
-/plugin marketplace add jeongph/why-is-my-claude-dumb
+/plugin marketplace add jeongph/claude-plugins
 ```
 
 **2. Install the plugin**
 
 ```
-/plugin install why-is-my-claude-dumb@jeongph-why-is-my-claude-dumb
+/plugin install why-is-my-claude-dumb@jeongph-claude-plugins
 ```
 
 **3. Run it**
