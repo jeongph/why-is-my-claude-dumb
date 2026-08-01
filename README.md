@@ -1,5 +1,8 @@
 # why-is-my-claude-dumb
 
+[![version](https://img.shields.io/github/v/release/jeongph/why-is-my-claude-dumb?label=version&color=blue)](https://github.com/jeongph/why-is-my-claude-dumb/releases)
+[![license](https://img.shields.io/github/license/jeongph/why-is-my-claude-dumb?color=lightgrey)](LICENSE)
+
 > Why is my Claude so dumb? Let's find out.
 
 Your Claude Code environment might be missing plugins that could make it significantly smarter. This plugin analyzes your local environment, codebase, and current setup, then recommends official marketplace plugins tailored to your workflow.
