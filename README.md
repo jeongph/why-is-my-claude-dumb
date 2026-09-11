@@ -3,9 +3,7 @@
 [![version](https://img.shields.io/github/v/release/jeongph/why-is-my-claude-dumb?label=version&color=blue)](https://github.com/jeongph/why-is-my-claude-dumb/releases)
 [![license](https://img.shields.io/github/license/jeongph/why-is-my-claude-dumb?color=lightgrey)](LICENSE)
 
-> Why is my Claude so dumb? Let's find out.
-
-Your Claude Code environment might be missing plugins that could make it significantly smarter. This plugin analyzes your local environment, codebase, and current setup, then recommends official marketplace plugins tailored to your workflow.
+This Claude Code plugin checks your local environment, codebase, and installed tools, then suggests official marketplace plugins that match your work.
 
 ## Installation
 
@@ -31,7 +29,7 @@ Your Claude Code environment might be missing plugins that could make it signifi
 
 ### Full analysis (`/why-dumb`)
 
-Walks you through a guided analysis:
+Walks you through a environment check:
 
 1. Asks about your workflow and pain points
 2. Scans your environment (OS, languages, installed plugins, Claude settings, MCP servers)
@@ -41,7 +39,7 @@ Walks you through a guided analysis:
 
 ### Auto-trigger (dumb-doctor)
 
-When you express frustration with Claude's performance, the `dumb-doctor` agent automatically offers to run an environment check and suggest 1-2 high-impact plugins.
+When you express frustration with Claude's performance, the `dumb-doctor` agent automatically offers to run an environment check and suggest 1–2 relevant plugins.
 
 ## What gets analyzed
 

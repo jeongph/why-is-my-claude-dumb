@@ -1,6 +1,6 @@
 {
   "name": "why-is-my-claude-dumb",
-  "description": "Analyze your environment and recommend official marketplace plugins to make Claude Code smarter",
+  "description": "개발 환경과 설치된 도구를 살펴보고, 작업에 도움이 될 공식 마켓플레이스 플러그인을 추천합니다.",
   "version": "1.1.0",
   "author": {
     "name": "jeongph"
